@@ -2,8 +2,12 @@
 var nomeUsuario = prompt('Qual seu nome???');
 var texto = document.querySelector('span');
 
-texto.textContent = nomeUsuario;
-
-while(nomeUsuario == ''){
+while(nomeUsuario == '' ) {// || nomeUsuario == null)
     nomeUsuario = prompt('Qual seu nome???');
 }
+
+if (nomeUsuario == null){
+    texto.textContent = 'Usuário';
+} else { texto.textContent = nomeUsuario; 
+}
+
