@@ -2,6 +2,7 @@ let numeroSecreto = 8;
 
 let chute = '';
 
+
 while(chute == null || chute != numeroSecreto){
     alert('Tente novamente:)');
     chute = prompt('Escolha um número entre 0 a 10');
