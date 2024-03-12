@@ -1,7 +1,7 @@
 let numeroSecreto = Math.random() * 10;
 console.log(numeroSecreto);
 
-let chute = '';
+let chute = prompt("Escolha um número entre 0 a 10");
 
 while(chute == null){
     alert('Tente novamente:)');
