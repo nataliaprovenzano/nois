@@ -10,6 +10,6 @@ if(numeroSecreto == chute){
     alert('Parabéns!!!! VOcê acertou :)')
     console.log('Parabéns, acertou mizera')
 } else{
-    alert('Que tristReza, errou :(');
+    alert('Que tristeza, errou :(');
     console.log('Infelizmente, errou mizera')
 }
