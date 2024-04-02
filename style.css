@@ -5,3 +5,10 @@ body{
 span{
     color: blueviolet;
 }
+section{
+    padding-top: 30px;
+    background-color: rgba(190, 160, 180, 0.600);
+    text-align: center;
+}
+
+.objetivos 
