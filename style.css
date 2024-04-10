@@ -21,3 +21,15 @@ section{
     border-bottom: 4px solid greenyellow;
 
 }
+ .textos{
+    text-align: center;
+ }
+
+ .aba-conteudo{
+    display: none;
+ }
+
+ .ativa{
+    display: block;
+ }
+ 
