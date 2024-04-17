@@ -1,6 +1,8 @@
 const botoes = document.querySelectorAll('.objetivos');
 const textos = document.querySelectorAll('.aba-conteudo');
 
+console.log(botoes.length);
+
 for (let sas = 0; sas < botoes.length; sas++){
     console.log(sas);
     botoes[sas].onclick = function(){
@@ -10,8 +12,10 @@ for (let sas = 0; sas < botoes.length; sas++){
         }
         botoes[sas].classList.add('ativo');
         textos[sas].classList.remove('ativa');
-       
     } 
 }
-
 const contadores = document.querySelectorAll('.contador');
+const tempo0objetivo1 = new Date('2024-04-18T00:00:00');
+let tempoAtual = new Date();
+
+contadores[0].textContent = 'Contagem';
