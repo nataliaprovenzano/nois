@@ -20,6 +20,9 @@ const tempo0objetivo1 = new Date('2024-04-19T00:00:00');
 let tempoAtual = new Date();
 let tempoFinal = tempo0objetivo1 - tempoAtual;
 
-let segundos = tempoFinal/1000;
+let segundos = Math.floor(tempoFinal/1000);
+let minutos = Math.floor(segundos/60);
+let horas = Math.floor (minutos/60);
+let dias = Math.floor(horas/24);
 
-contadores[0].textContent = 'Contagem';
+contadores[0].textContent = dias = " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
