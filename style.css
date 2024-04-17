@@ -32,4 +32,7 @@ section{
  .ativa{
     display: block;
  }
+ section{
+    text-align: center;
+ }
  
