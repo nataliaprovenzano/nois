@@ -17,6 +17,7 @@ for (let sas = 0; sas < botoes.length; sas++){
 const contadores = document.querySelectorAll('.contador');
 const tempo0objetivo1 = new Date('2024-04-19T00:00:00');
 
+
 let tempoAtual = new Date();
 let tempoFinal = tempo0objetivo1 - tempoAtual;
 
@@ -25,8 +26,9 @@ let minutos = Math.floor(segundos/60);
 let horas = Math.floor (minutos/60);
 let dias = Math.floor(horas/24);
 
-contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
-
 segundos %= 60;
 minutos %= 60;
 horas %= 24;
+
+contadores[0].textContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+
