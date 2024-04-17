@@ -15,7 +15,7 @@ for (let sas = 0; sas < botoes.length; sas++){
     } 
 }
 const contadores = document.querySelectorAll('.contador');
-const tempo0objetivo1 = new Date('2024-04-18T00:00:00');
+const tempo0objetivo1 = new Date('2024-04-19T00:00:00');
 let tempoAtual = new Date();
 
 contadores[0].textContent = 'Contagem';
