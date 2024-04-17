@@ -1,38 +1,36 @@
-body{
+body {
     color: rgb(0, 0, 0);
     flood-color: black;
 }
-span{
+span {
     color: rgb(217, 255, 0);
 }
-section{
+section {
     padding-top: 10px;
     background-color: rgb(255, 0, 170);
     text-align: center;
 }
 
-.objetivos{
+.objetivos {
     font-size: 18px;
     padding: 18px;
     border: 0px;
 }
 
-.ativo{
+.ativo {
     border-bottom: 4px solid greenyellow;
 
 }
- .textos{
+ .textos {
     text-align: center;
  }
 
- .aba-conteudo{
+ .aba-conteudo {
     display: none;
  }
 
- .ativa{
+ .ativa {
     display: block;
  }
- section{
-    text-align: center;
- }
+ 
  
