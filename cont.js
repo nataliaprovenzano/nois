@@ -1,11 +1,6 @@
 const botoes = document.querySelectorAll('.objetivos');
 const textos = document.querySelectorAll('.aba-conteudo');
 
-
-
-
-
-
 for (let sas = 0; sas < botoes.length; sas++){
     console.log(sas);
     botoes[sas].onclick = function(){
@@ -16,6 +11,7 @@ for (let sas = 0; sas < botoes.length; sas++){
         botoes[sas].classList.add('ativo');
         textos[sas].classList.remove('ativa');
        
-    }
-    
+    } 
 }
+
+const contadores = document.querySelectorAll('.contador');
