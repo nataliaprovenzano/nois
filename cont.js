@@ -17,5 +17,8 @@ for (let sas = 0; sas < botoes.length; sas++){
 const contadores = document.querySelectorAll('.contador');
 const tempo0objetivo1 = new Date('2024-04-19T00:00:00');
 let tempoAtual = new Date();
+let tempoFinal = tempo0objetivo1 - tempoAtual;
 
-contadores[0].textContent = 'Contagem';
+let segundos = tempoFinal/1000;
+
+contadores[0].textContent = segundos;
