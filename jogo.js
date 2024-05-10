@@ -1,17 +1,20 @@
-let numeroSecreto = Math.floor(Math.random() * 10);
+
+let numeroSecreto = Math.floor( Math.random() * 50);
 console.log(numeroSecreto);
 
-let chute = prompt('Escolha um número entre 0 a 10');
 
-while(chute == null || chute == ''){
-    alert('Tente novamente:)');
-    chute = prompt('Escolha um número entre 0 a 10');
+let chute = prompt('Quantas vezes o Gui passou mal essa semana?');
+
+
+
+while(chute == null){
+    alert('Vai de volta tonto');
+    chute = prompt('Quantas vezes o Gui passou mal essa semana?');
 }
 
 if(numeroSecreto == chute){
-    alert('Parabéns!!!! Você acertou :)')
-    console.log('Parabéns, acertou mizera')
+    alert('Parabéns!!! Acertou safado!!');
+    console.log('Acertou safado!!')   
 } else{
-    alert('Que tristeza, errou :(');
-    console.log('Infelizmente, errou mizera')
-}
+    alert('AAAAAAAA, ERROU BURROO');
+    console.log('ERROU BURROO');
