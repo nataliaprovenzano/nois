@@ -11,7 +11,7 @@ for (let sas = 0; sas < botoes.length; sas++){
             textos[j].classList.remove('ativa');
         }
         botoes[sas].classList.add('ativo');
-        textos[sas].classList.remove('ativa');
+        textos[sas].classList.add('ativa');
     } 
 }
 const contadores = document.querySelectorAll('.contador');
